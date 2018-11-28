@@ -22,7 +22,7 @@ def scanFile(dirFile):
     #print scanner.position()
     while 1:
         token = scanner.read()
-        print token     
+        print (token)    
         if token[0] is None:
             print ('Archivo descartado')
             break
@@ -36,11 +36,11 @@ for file in db:
     #print scanner.position()
     while 1:
         token = scanner.read()
-        print token     
+        print (token)     
         if token[0] is None:
             print ('Archivo descartado')
             break
-    print file
+    print(file)
 
 '''
 from os import listdir
